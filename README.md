@@ -1,3 +1,4 @@
+_This project is no longer being maintained due to a recent [OSRS update](https://secure.runescape.com/m=news/run-energy-changes?oldschool=1) which re-exposed the vars for essence pouch data. As a result, RuneLite maintainers have updated their default Runecrafting plugin and this plugin is no longer needed._
 # [Essence Pouch Tracker](https://runelite.net/plugin-hub/show/essence-pouch-tracking)
 
 ![image](https://img.shields.io/endpoint?url=https://api.runelite.net/pluginhub/shields/installs/plugin/essence-pouch-tracking)
