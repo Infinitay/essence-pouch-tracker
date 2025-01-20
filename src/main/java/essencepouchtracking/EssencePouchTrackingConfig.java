@@ -10,10 +10,21 @@ public interface EssencePouchTrackingConfig extends Config
 	String GROUP = "essencepouchtracking";
 
 	@ConfigItem(
+		keyName = "showOnlyColossal",
+		name = "Colossal Pouch Only",
+		description = "Only shows the overlays for the Colossal Pouch",
+		position = 0
+	)
+	default boolean showOnlyColossal()
+	{
+		return true;
+	}
+
+	@ConfigItem(
 		keyName = "showStoredEssence",
 		name = "Show Stored",
 		description = "Shows the amount of stored essence over the essence pouch",
-		position = 0
+		position = 1
 	)
 	default boolean showStoredEssence()
 	{
@@ -24,7 +35,7 @@ public interface EssencePouchTrackingConfig extends Config
 		keyName = "showDecay",
 		name = "Show Decay",
 		description = "Shows the approx. amount of essence able to be stored before the essence pouch decays",
-		position = 1
+		position = 2
 	)
 	default boolean showDecay()
 	{
@@ -35,7 +46,7 @@ public interface EssencePouchTrackingConfig extends Config
 		keyName = "showDebugOverlay",
 		name = "Show Debug Overlay",
 		description = "Shows the debug overlay",
-		hidden = true,
+		hidden = false,
 		position = Integer.MAX_VALUE
 	)
 	default boolean showDebugOverlay()
