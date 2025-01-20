@@ -1,4 +1,6 @@
 _This project is no longer being maintained due to a recent [OSRS update](https://secure.runescape.com/m=news/run-energy-changes?oldschool=1) which re-exposed the vars for essence pouch data. As a result, RuneLite maintainers have updated their default Runecrafting plugin and this plugin is no longer needed._
+
+_I will leave the plugin still available as it was requested, and some preferred the design of using clicks instead of waiting for ticks, and as of now it seems that OSRS isn't transmitting the data for the colossal pouch, so this plugin can function for just the colossal pouch if need be._
 # [Essence Pouch Tracker](https://runelite.net/plugin-hub/show/essence-pouch-tracking)
 
 ![image](https://img.shields.io/endpoint?url=https://api.runelite.net/pluginhub/shields/installs/plugin/essence-pouch-tracking)

@@ -39,6 +39,11 @@ public class EssencePouchTrackingOverlay extends WidgetItemOverlay
 		EssencePouch pouch = trackingState.getPouch(itemId);
 		if (pouch != null)
 		{
+			if (this.config.showOnlyColossal() && pouch.getPouchType() != EssencePouches.COLOSSAL)
+			{
+				return;
+			}
+
 			if (this.config.showStoredEssence())
 			{
 				renderStoredEssence(graphics, itemId, widgetItem, pouch);
